@@ -1,6 +1,7 @@
 """
-SOLUTION 1
+SOLUTION 1 - BINARY SEARCH
 Time Complexity: O(logn)
+Space Complexity: O(1)
 """
 
 class Solution:
@@ -41,4 +42,3 @@ class Solution:
                     min_of_right = min(nums2[j], nums1[i])
                     
                 return (max_of_left + min_of_right) / 2.0
-        
